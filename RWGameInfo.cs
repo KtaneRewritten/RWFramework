@@ -13,7 +13,7 @@ public class RWGameInfo : MonoBehaviour
     /// <summary>
     /// The information for the current mission. May be null.
     /// </summary>
-    public KMMission Mission => OnGetMission?.Invoke() ?? null;
+    public KMMission Mission => OnGetMission?.Invoke();
 
     /// <summary>
     /// Do not use in mod. For game use only.

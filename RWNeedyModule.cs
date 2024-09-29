@@ -7,6 +7,18 @@
 public class RWNeedyModule : MonoBehaviour
 {
     /// <summary>
+    /// Whether the module requires a deeper foam backing in the bomb casing.
+    /// </summary>
+    [Tooltip("Whether the module requires a deeper foam backing in the bomb casing.")]
+    public bool RequiresDeepBacking;
+
+    /// <summary>
+    /// Whether gameplay music should be muted when this module is selected.
+    /// </summary>
+    [Tooltip("Whether gameplay music should be muted when this module is selected.")]
+    public bool MuteGameplayMusic;
+
+    /// <summary>
     /// Whether or not the module should wait and reset after a deactivation. False means the module will never re-activate.
     /// </summary>
     [Tooltip("Whether or not the module should wait and reset after a deactivation. False means the module will never re-activate.")]

@@ -11,4 +11,10 @@ public class RWBombModule : MonoBehaviour
     /// </summary>
     [Tooltip("Whether the module requires a deeper foam backing in the bomb casing.")]
     public bool RequiresDeepBacking;
+
+    /// <summary>
+    /// Whether gameplay music should be muted when this module is selected.
+    /// </summary>
+    [Tooltip("Whether gameplay music should be muted when this module is selected.")]
+    public bool MuteGameplayMusic;
 }
